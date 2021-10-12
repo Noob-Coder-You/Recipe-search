@@ -1,0 +1,93 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body{
+ font-family: 'Ubuntu', sans-serif;
+}
+
+
+img{
+    width: 100%;
+    max-width: 250px;
+    border-radius: 12px;
+}
+
+.recipe{
+    color: blue;
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+}
+
+.title{
+    color: #4f4fcc;
+    font-size: 1.9rem;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+}
+
+
+.father{
+    max-width: 800px;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.one{
+    
+   
+    text-align: center;
+    
+}
+
+.recipe-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img{
+    border-radius: 20px;
+}
+
+
+.ul-list{
+color: #424242;
+
+
+
+}
+
+li{
+    margin-bottom: .8rem;
+    font-size: 1.125rem;
+}
+
+
+.one h1{
+    color: #3131d6;
+  
+}
+
+.two h1{
+    color: #25256a;
+    font-size: 1.85rem;
+    
+}
+.two li{
+font-size: 1.07rem;
+color: #343435;
+
+}
+
+
+@media (min-width:600px) {
+    .two{
+        width: 50%;
+    }
+}
